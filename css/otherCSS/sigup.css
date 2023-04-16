@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg--white: #ffffff;
+  --bg--50: #a49ca8;
+  --gb-black-900: #e7e7f2;
+  --bg-black-100: #f4f4f4;
+  --bg-oragne-100: #f7941e;
+  --text-black-900: #302e4d;
+  --text-black-700: #504e70;
+  --text-color-blue: #0d0de6;
+  --text-color-red: #fd475a;
+  --text-color-black: #000000;
+  --text-color-ft: #4a4a4a;
+  --box-shadow: 0 4px 6px #00000029;
+  --text-color-price: #d0021c;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background: var(--bg--50);
+
+  color: var(--text-black-900);
+  width: 1200px;
+  margin: auto;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+}
+
+.sigup_form {
+  background-color: white;
+  border-radius: 5px;
+  margin: 20% auto;
+  padding: 10px 20\px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px #00000029;
+}
+.sigup_form h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.sigup_form label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.sigup_form input {
+  margin-bottom: 10px;
+  height: 30px;
+  font-size: 1rem;
+}
+.btn_sigup {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.btn_sigup button {
+  padding: 10px 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(6, 87, 107);
+  text-transform: uppercase;
+}
+.text_siging {
+  font-size: 1rem;
+}
